@@ -3,7 +3,9 @@
 In your cloud shell
 
 `mkdir .ssh`
+
 `cd .ssh`
+
 `ssh-keygen `
 
 enter 2 times to create the file
@@ -17,9 +19,11 @@ total 8
 -rw-r--r-- 1 meera meera  416 Jan 15 04:47 id_rsa.pub
 
 
-# create authorized_keys using the below command
+### create authorized_keys using the below command
 
 ~/.ssh$ `cat ~/.ssh/id_rsa.pub >> ~/.ssh/authorized_keys`
+
+### create directory and upload the file
 
 create a directory tftest
 
@@ -28,6 +32,8 @@ mkdir tftest
 cd tftest
 
 upload the main.tf file
+
+### run terraform commands
 
 terraform init
 
