@@ -17,11 +17,15 @@ total 8
 -rw-r--r-- 1 meera meera  416 Jan 15 04:47 id_rsa.pub
 
 
-#create authorized_keys using the below command
+# create authorized_keys using the below command
 
 ~/.ssh$ `cat ~/.ssh/id_rsa.pub >> ~/.ssh/authorized_keys`
 
 create a directory tftest
+
+mkdir tftest
+
+cd tftest
 
 upload the main.tf file
 
