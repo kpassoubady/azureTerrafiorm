@@ -1,4 +1,4 @@
-# azureTerrafiorm
+# azureTerraform
 
 In your cloud shell
 
